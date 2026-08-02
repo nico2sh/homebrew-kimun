@@ -1,30 +1,30 @@
 class Kimun < Formula
   desc "Terminal-based notes app focused on simplicity and powerful search"
   homepage "https://github.com/nico2sh/kimun"
-  version "0.21.0"
+  version "0.22.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/nico2sh/kimun/releases/download/kimun-notes-v0.21.0/kimun-0.21.0-macos-arm64.tar.gz"
-      sha256 "21402b96d68664bf5a003cbe37e30ff2beb19443c468535fb08ca64fba9d75c1"
+      url "https://github.com/nico2sh/kimun/releases/download/kimun-notes-v0.22.0/kimun-0.22.0-macos-arm64.tar.gz"
+      sha256 "74aeb54983f877cb707a65a8e81d553d27db8ec959179c7d0c96f8377cd75b51"
     end
 
     on_intel do
-      url "https://github.com/nico2sh/kimun/releases/download/kimun-notes-v0.21.0/kimun-0.21.0-macos-x64.tar.gz"
-      sha256 "b0351a8a243806b4b5069480d6c2ae979dd060226e1d31e821482d2d08013af1"
+      url "https://github.com/nico2sh/kimun/releases/download/kimun-notes-v0.22.0/kimun-0.22.0-macos-x64.tar.gz"
+      sha256 "104a3f02845cd2fd7c321f6ef044d75b85478c902e0ff628622ce133b88c08e0"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/nico2sh/kimun/releases/download/kimun-notes-v0.21.0/kimun-0.21.0-linux-arm64.tar.gz"
-      sha256 "1a6e74c11888970d2c295d89ebc5e778c1b23d84fe8c1aaf87b2539abda85ade"
+      url "https://github.com/nico2sh/kimun/releases/download/kimun-notes-v0.22.0/kimun-0.22.0-linux-arm64.tar.gz"
+      sha256 "f6b89a2385f617850a46378be7bb299f65c55e7d966e6b47294eac18aa504a17"
     end
 
     on_intel do
-      url "https://github.com/nico2sh/kimun/releases/download/kimun-notes-v0.21.0/kimun-0.21.0-linux-x64.tar.gz"
-      sha256 "4162aa5049da8f9755271e6f0e5d89b9897fad3e4da88169f0bd16b4635ca3f0"
+      url "https://github.com/nico2sh/kimun/releases/download/kimun-notes-v0.22.0/kimun-0.22.0-linux-x64.tar.gz"
+      sha256 "5d29a4664eeb374e9db4e3bec2cb3ce45aec25b6beb499d433fabeb4d160626d"
     end
   end
 
